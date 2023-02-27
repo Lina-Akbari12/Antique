@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url(../images/IMG\ \(6\).JPG);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: -1;
+    /* margin-bottom: 50px;*/
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+
+
+}
+
+#header h1 {
+    font-size: 100px;
+    color: rgb(85, 158, 183);
+    display: block;
+}
+
+#home .home {
+    background-color: #000000d6;
+    color: white;
+    min-height: 600px;
+    width: 1100px;
+    display: block;
+    margin-left: 200px;
+    border-radius: 50px;
+    margin-top: -80px;
+    z-index: 3;
+    margin-bottom: 170px;
+}
+
+.home h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.home p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.home ul li {
+    margin-left: 90px;
+    font-size: 30px;
+
+}
+
+.furniture {
+    position: relative;
+    font-size: 20px;
+    background-color: #f9f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    min-height: 500px;
+    margin-left: 150px;
+    border-radius: 50px;
+    margin-bottom: 150px;
+}
+
+.furniture h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+}
+
+.furniture p {
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+.furniture img {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-left: 250px;
+}
+
+.jewlry {
+    position: relative;
+    font-size: 20px;
+    background-color: #f9f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    min-height: 500px;
+    margin-left: 300px;
+    border-radius: 50px;
+    margin-bottom: 150px; 
+}
+
+.jewlry img {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-left: 1px;
+}
+
+.jewlry h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.jewlry p {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.clock {
+    position: relative;
+    font-size: 20px;
+    background-color: #f9f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    min-height: 500px;
+    margin-left: 150px;
+    border-radius: 50px;
+    margin-bottom: 150px;
+}
+
+.clock h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+}
+
+.clock p {
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+.clock img {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-left: 250px;
+}
+
+.kitchen {
+    position: relative;
+    font-size: 20px;
+    background-color: #f9f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    min-height: 500px;                              
+    margin-left: 300px;
+    border-radius: 50px;
+    margin-bottom: 150px;
+}
+
+.kitchen img {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-left: 1px;
+}
+
+.kitchen h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.kitchen p {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.examples {
+    padding-bottom: 100px;
+    min-height: auto;
+    display: block;
+    text-align: center;
+}
+
+.examples h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.images img {
+    width: 400px;
+    height: 500px;
+    margin: -4px;
+}
+
+.navbar img {
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+
+#about .about {
+    color: aliceblue;
+    background-color: #181616;
+    min-height: 450px;
+    width: 100%;
+}
+
+.about > div {
+    margin-right: 140px; 
+}
+
+.about > div > img {
+    width: 100px;
+}
+
+#about .about a img {
+    width: 30px;
+
+}
